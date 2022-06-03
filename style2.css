@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0261ba;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  h2{
+      color: #eaeaea;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+  
+  
+  .about-section {
+    padding: 50px;
+    text-align: left;
+    background-color: #eaeaea;
+    border-radius: 3px;
+    max-width: 1000px;
+    color: #0261ba;
+  }
+  
+  .container {
+    margin: 20px auto;
+    padding: 40px;
+    
+    max-width: 1000px;
+    background-color: #eaeaea;
+    text-align: center;
+    border-radius: 3px;
+    
+
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+    font-size: xx-large;
+    
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #eaeaea;
+    background-color: #0261ba;
+    text-align: center;
+    cursor: pointer;
+    font-size: large;
+    width: 20%;
+    margin: 0 50px;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  p{
+      font-size: x-large;
+  }
+  image{
+      height: 300px;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50%;
+  }
+  
